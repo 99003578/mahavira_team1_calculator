@@ -11,7 +11,7 @@
 #include "square.h"
 #include "dates.h"
 
-int main(){
+void main(){
 
     int menu_num;
     char option;
@@ -35,5 +35,5 @@ int main(){
 
     }while(option!= 'E');
 
-  return 0 ;
+  printf("exiting..");
 }

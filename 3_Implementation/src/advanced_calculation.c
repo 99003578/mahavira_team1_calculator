@@ -7,7 +7,7 @@
 
 char advanced_calculation(){
 
-int num, catch,operand;
+int n,num,catch,operand;
 char back=0;
 
     do{
@@ -34,7 +34,12 @@ char back=0;
                     printf("\n\n\n PRESS Y - SAME Menu    PRESS N - MAIN Menu\n");
                     scanf(" %c", &back);
                     break;
-            case 4: prime();
+
+            case 4: printf("Enter a positive integer: ");
+                    scanf("%d", &operand);
+
+                    catch = prime(operand);
+
                     printf("\n\n\n PRESS Y - SAME Menu    PRESS N - MAIN Menu\n");
                     scanf(" %c", &back);
                     break;

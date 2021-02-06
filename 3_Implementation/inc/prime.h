@@ -2,6 +2,6 @@
 #define _PRIME_H_
 #include<stdio.h>
 
-void prime();
+int prime(int);
 
 #endif

@@ -21,5 +21,4 @@ int division()
     quotient = num1 / num2;
     printf("Quotient = %.02f", quotient);
     return 0;
-
 }

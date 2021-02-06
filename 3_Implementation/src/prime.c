@@ -1,9 +1,9 @@
 #include "prime.h"
 
-void prime(){
-    int n, i, flag = 0;
-    printf("Enter a positive integer: ");
-    scanf("%d", &n);
+int  prime(int n){
+    int i, flag = 0;
+    //printf("Enter a positive integer: ");
+    //scanf("%d", &n);
 
     for (i = 2; i <= n / 2; ++i) {
 
@@ -16,12 +16,18 @@ void prime(){
 
     if (n == 1) {
         printf("1 is neither prime nor composite.");
+        return 0;
+        
     }
     else {
         if (flag == 0)
-            printf("%d is a prime number.", n);
+           //printf("%d is a prime number.", n);
+            return 1; 
+            
         else
             printf("%d is not a prime number.", n);
+            return 2;
+            
     }
  
 }

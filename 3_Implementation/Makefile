@@ -5,6 +5,12 @@ PROJECT_NAME = MAHAVIRA_TEAM1_CALCULATOR
 BUILD = build
 SRC =  src/basic_calculation.c src/advanced_calculation.c src/addition.c src/calculate_power.c src/multiplication.c src/subtraction.c src/division.c src/factorial.c src/square.c src/prime.c src/dates.c main.c 
 
+TEST = unity/unity.c\
+		test/test_prime_main.c\
+		test/test_prime.c\
+		src/prime.c
+		
+
 # All source code files
 #unity/unity.h\ 
 #test/test.c
@@ -33,6 +39,12 @@ $(PROJECT_NAME):all
 
 all: $(SRC) $(BUILD)
 	gcc $(SRC) $(INC)-o $(BUILD)/Hello.out
+
+$(BUILD)/test.out: $(SRC) $(TEST) $(BUILD)
+	gcc $(TEST) $(INC)-o $(BUILD)/test.out
+
+test: $(BUILD)/test.out
+	$(BUILD)/test.out
 
 # Call `make run` to run the application
 run:$(PROJECT_NAME)
