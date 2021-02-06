@@ -91,9 +91,6 @@ int validity(int dd,int mm,int yy)
 }
 int leapyear(int ly)
 {
-    int yyy;
-    printf("Enter the Year ");
-    scanf("%d",&yyy);
     if((ly%4==0&&ly%100!=0)||ly%400==0)
     {
       printf("leap year");
