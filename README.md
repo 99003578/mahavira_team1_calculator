@@ -6,7 +6,7 @@
 ![Valgrind](https://github.com/99003578/mahavira_team1_calculator/workflows/Valgrind/badge.svg)
 ![contributers-list-122](https://user-images.githubusercontent.com/78539923/107116765-73fb4a00-689b-11eb-99b8-fc5759e86cb2.jpg)
 
- Git Inspector
+# Git Inspector
  file:///home/ltts/Documents/GitHub/mahavira_team1_calculator/result.html
 
 # CHALLENGES
