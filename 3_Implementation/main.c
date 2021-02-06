@@ -10,11 +10,9 @@
 #include "factorial.h"
 #include "square.h"
 #include "dates.h"
-
-void main(){
 #include "division.h"
 
-int main(){
+void main(){
 
     int menu_num;
     char option;
