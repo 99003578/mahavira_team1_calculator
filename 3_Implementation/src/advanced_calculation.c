@@ -8,6 +8,7 @@
 char advanced_calculation(){
 
 int n,num,catch,operand;
+int yyy;
 char back=0;
 
     do{
@@ -47,7 +48,10 @@ char back=0;
                     printf("\n\n\n PRESS Y - SAME Menu    PRESS N - MAIN Menu\n");
                     scanf(" %c", &back);
                     break;
-            case 6: leapyear();
+            case 6: printf("Enter the Year ");
+                    scanf("%d",&yyy);
+                    if(yyy>999&&yyy<9999)
+                    {leapyear(yyy);}
                     printf("\n\n\n PRESS Y - SAME Menu    PRESS N - MAIN Menu\n");
                     scanf(" %c", &back);
                     break;
