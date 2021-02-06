@@ -46,6 +46,7 @@ char back=0;
                     printf("\n\n\n PRESS Y - SAME Menu    PRESS N - MAIN Menu\n");
                     scanf(" %c", &back);
                     break;
+            default: back = 'E'; 
         }
     }while(back!= 'N');
 
