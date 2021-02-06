@@ -2,10 +2,9 @@
  basic calculations
 
 ![cppcheck-action](https://github.com/99003578/mahavira_team1_calculator/workflows/cppcheck-action/badge.svg)
-![cppcheck-action](https://github.com/99003578/mahavira_team1_calculator/workflows/cppcheck-action/badge.svg)
+![Codacy Badge](https://app.codacy.com/project/badge/Grade/d9c4ee64fd8342c5aef9721bb0a83b23)
 ![Valgrind](https://github.com/99003578/mahavira_team1_calculator/workflows/Valgrind/badge.svg)
 ![contributers-list-122](https://user-images.githubusercontent.com/78539923/107116765-73fb4a00-689b-11eb-99b8-fc5759e86cb2.jpg)
-![Codacy Badge](https://app.codacy.com/project/badge/Grade/d9c4ee64fd8342c5aef9721bb0a83b23)](https://www.codacy.com/gh/99003578/mahavira_team1_calculator/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=99003578/mahavira_team1_calculator&amp;utm_campaign=Badge_Grade)
 
 # Git Inspector
  file:///home/ltts/Documents/GitHub/mahavira_team1_calculator/result.html
