@@ -20,7 +20,9 @@ CHALLENGES
  
  3.unit test cases
  
- 
+ TEST SUMMARY
+ ![Test-summary](https://user-images.githubusercontent.com/78539650/107116831-f7b53680-689b-11eb-867f-1613d06269d8.jpg)
+
  
  
  LEARNING FOLDER
@@ -28,3 +30,5 @@ CHALLENGES
  https://www.visual-paradigm.com/
  
  https://word2md.com/
+ 
+ 
