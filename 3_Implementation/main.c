@@ -12,6 +12,9 @@
 #include "dates.h"
 
 void main(){
+#include "division.h"
+
+int main(){
 
     int menu_num;
     char option;
