@@ -3,7 +3,7 @@ include "unity.h"
 #include "test_multiplication.h"
 /* Required by the unity test framework */
 void setUp(){}
-/* Required by the unity test framework */
+/* Required by the unity test frmework */
 void tearDown(){}
 
 int main(void)
