@@ -94,8 +94,11 @@ int leapyear(int ly)
     if((ly%4==0&&ly%100!=0)||ly%400==0)
     {
       printf("leap year");
+      return 1;
     }
     else
-     printf("not");
+    {
+    printf("not a leap year");
     return 0;
+    }
 }
