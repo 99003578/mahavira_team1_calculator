@@ -1,5 +1,5 @@
-#ifndef __TEST_PRIME_H__
-#define __TEST_PRIME_H__
+#ifndef __TEST_MULTIPLICATION_H__
+#define __TEST_MULTIPLICATION_H__
 
 void test_multiplication(void);
 void test_zero_one(void);
