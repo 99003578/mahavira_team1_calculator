@@ -4,5 +4,5 @@ void square(){
     printf("Enter number:");
     scanf("%lf",&num);
     
-    printf("The square of number is:%lf",num*num);
+    printf("The square of number is:%lf",(num*num));
 }
