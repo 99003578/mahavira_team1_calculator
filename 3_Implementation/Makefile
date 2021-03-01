@@ -8,10 +8,11 @@ SRC =  src/basic_calculation.c src/advanced_calculation.c src/addition.c src/cal
 TEST = unity/unity.c\
 		test/test_prime_main.c\
 		test/test_prime.c\
-		src/prime.c
-		test/test_division_main.c\
-		test/test_divison.c\
-		src/division.c
+		src/prime.c\
+		
+		#test/test_division_main.c
+		#test/test_divison.c
+		#src/division.c
 		
 
 		

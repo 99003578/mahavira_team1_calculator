@@ -1,8 +1,8 @@
 #include "square.h"
 void square(){
-    int num;
+    double num;
     printf("Enter number:");
-    scanf("%d",&num);
+    scanf("%lf",&num);
     
-    printf("The square of number is:%d",num*num);
+    printf("The square of number is:%lf",(num*num));
 }
