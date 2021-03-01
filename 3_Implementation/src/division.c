@@ -4,19 +4,15 @@ int division()
 {
     float num1, num2;
     float quotient;
-    printf("Enter Number 1 : ");
+    printf("Enter the dividend : ");
     scanf("%f", &num1);
     if(num1 == 0){
-        printf("Invalid Operand\n");
-        printf("Enter a valid Number : ");
-        scanf("%f", &num1);
+        printf("0");
      }
-    printf("Enter Number 2 : ");
+    printf("Enter the divisor : ");
     scanf("%f",  &num2);
     if(num2 == 0){
-        printf("Invalid Operand\n");
-        printf("Enter a valid Number : ");
-        scanf("%f", &num2);
+        printf("infinty\n");
      }
     quotient = num1 / num2;
     printf("Quotient = %.02f", quotient);
