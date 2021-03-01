@@ -10,6 +10,10 @@ TEST = unity/unity.c\
 		test/test_prime.c\
 		src/prime.c\
 		
+		test/test_calculate_power_main.c\
+		test/test_calculate_power.c\
+		src/test_calculate_power.c\
+		
 		#test/test_division_main.c
 		#test/test_divison.c
 		#src/division.c
