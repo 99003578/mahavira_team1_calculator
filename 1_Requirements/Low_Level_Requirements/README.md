@@ -9,5 +9,5 @@
 | **LL\_5** | Factorial | Finds factorial of a number |
 | **LL\_6** | Square | Square of a number(integer type) |
 | **LL\_7** | Difference between two dates | Leap year |
-| **LL\_8** | Power | Nth power of a number |
+| **LL\_8** | Power | Nth power of a number:Thhe number and the exponent is of integer datatype |
 | **LL\_9** | Prime of a number | Prime of given numbers |)
