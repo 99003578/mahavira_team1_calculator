@@ -17,6 +17,11 @@ int datescalc()
     scanf("%2d",&m2);
     printf("enter the end year in yyyy format");
     scanf("%4d",&y2);
+    if(y1>y2)
+    {
+     printf("start date is higher than end date");
+     return 0;   
+    }
     check=validity(d1,m1,y1);
     if (check==0){return 0;}
     check=validity(d2,m2,y2);
