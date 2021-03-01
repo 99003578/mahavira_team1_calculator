@@ -1,11 +1,11 @@
 #include "subtraction.h"
 void subtraction(){
 
-    int a,b,diff;
+    float a,b,diff;
         printf("enter input 1:");
-        scanf("%d",&a);
+        scanf("%f",&a);
         printf("enter input 2:");
-        scanf("%d",&b);
+        scanf("%f",&b);
             diff=a-b;
-     printf("tha output of subtraction is :%d",diff);
+     printf("tha output of subtraction is :%f",diff);
 }
