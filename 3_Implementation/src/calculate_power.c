@@ -15,9 +15,11 @@ void calculate_power()
     {
         result *= Base_Number;
         --exponent;
-    }
-    
+
     printf("Answer = %lf", result);
+    }
+
+     printf("Invalid");
     
 }   
     
