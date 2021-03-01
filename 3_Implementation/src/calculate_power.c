@@ -4,7 +4,7 @@ void calculate_power()
 
 {
     double Base_Number, exponent;
-    long long result = 1;
+    double result = 1;
     
     printf("Enter a base number: ");
     scanf("%lf", &Base_Number);
@@ -17,7 +17,7 @@ void calculate_power()
         --exponent;
     }
     
-    printf("Answer = %lld", result);
+    printf("Answer = %lf", result);
     
 }   
     
