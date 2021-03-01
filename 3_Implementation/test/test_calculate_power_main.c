@@ -13,8 +13,8 @@ int main(void)
 
 /* Run Test functions */
   RUN_TEST(test_calculate_power);
-  RUN_TEST(test_zero_one);
-  RUN_TEST(test_negative);
+  RUN_TEST(test_zero);
+ 
 
   /* Close the Unity Test Framework */
   return UNITY_END();
