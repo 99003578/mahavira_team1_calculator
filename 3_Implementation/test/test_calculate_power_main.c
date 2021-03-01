@@ -1,19 +1,21 @@
 #include "unity.h"
+#include "calculate_power.h"
 #include "test_calculate_power.h"
-
 /* Required by the unity test framework */
-void setUp() {}
+void setUp(){}
 /* Required by the unity test framework */
-void tearDown() {}
+void tearDown(){}
 
 int main(void)
 {
-	/* Initiate the Unity Test Framework */
-	UNITY_BEGIN();
+/* Initiate the Unity Test Framework */
+  UNITY_BEGIN();
 
-    // Check primality function
-    test_calculate_power();
+/* Run Test functions */
+  RUN_TEST(test_calculate_power);
+  RUN_TEST(test_zero_one);
+  RUN_TEST(test_negative);
 
-	/* Close the Unity Test Framework */
-	return UNITY_END();
+  /* Close the Unity Test Framework */
+  return UNITY_END();
 }
