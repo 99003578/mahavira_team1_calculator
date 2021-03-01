@@ -3,13 +3,13 @@
 void calculate_power()
 
 {
-    int Base_Number, exponent;
+    double Base_Number, exponent;
     long long result = 1;
     
     printf("Enter a base number: ");
-    scanf("%d", &Base_Number);
+    scanf("%ld", &Base_Number);
     printf("Enter an exponent: ");
-    scanf("%d", &exponent);
+    scanf("%ld", &exponent);
 
     while (exponent != 0)
     {
