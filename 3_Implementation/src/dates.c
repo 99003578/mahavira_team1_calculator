@@ -5,10 +5,18 @@ int datescalc()
     int d1,m1,y1,d2,m2,y2;
     int dr,mr,yr;
     int check =1;
-    printf("enter the start date in dd/mm/yyyy format");
-    scanf("%2d%2d%4d",&d1,&m1,&y1);
-    printf("enter the end date in dd/mm/yyyy format");
-    scanf("%2d%2d%4d",&d2,&m2,&y2);
+    printf("enter the start date in dd or d format");
+    scanf("%2d",&d1);
+     printf("enter the start month in mm or m format");
+    scanf("%2d",&m1);
+     printf("enter the start year in yyyy format");
+    scanf("%4d",&y1);
+    printf("enter the end date in dd or d format");
+    scanf("%2d",&d2);
+    printf("enter the end month in mm or m format");
+    scanf("%2d",&m2);
+    printf("enter the end year in yyyy format");
+    scanf("%4d",&y2);
     check=validity(d1,m1,y1);
     if (check==0){return 0;}
     check=validity(d2,m2,y2);
