@@ -52,6 +52,8 @@ char back=0;
                     scanf("%d",&yyy);
                     if(yyy>999&&yyy<9999)
                     {leapyear(yyy);}
+                    else
+                    {printf("enter a valid year");}    
                     printf("\n\n\n PRESS Y - SAME Menu    PRESS N - MAIN Menu\n");
                     scanf(" %c", &back);
                     break;

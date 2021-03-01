@@ -11,7 +11,7 @@ TEST = unity/unity.c\
 		src/prime.c\
 		test/test_division_main.c\
 		test/test_divison.c\
-		src/division.c
+		src/division.c\
 		
 
 		
