@@ -7,9 +7,9 @@ void calculate_power()
     long long result = 1;
     
     printf("Enter a base number: ");
-    scanf("%ld", &Base_Number);
+    scanf("%lf", &Base_Number);
     printf("Enter an exponent: ");
-    scanf("%ld", &exponent);
+    scanf("%lf", &exponent);
 
     while (exponent != 0)
     {
