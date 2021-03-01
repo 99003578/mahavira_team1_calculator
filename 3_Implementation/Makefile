@@ -6,17 +6,15 @@ BUILD = build
 SRC =  src/basic_calculation.c src/advanced_calculation.c src/addition.c src/calculate_power.c src/multiplication.c src/subtraction.c src/division.c src/factorial.c src/square.c src/prime.c src/dates.c main.c 
 
 TEST = unity/unity.c\
-		test/test_prime_main.c\
-		test/test_prime.c\
+		test/test_calculator.c\
 		src/prime.c\
-		
-		#test/test_division_main.c
-		#test/test_divison.c
-		#src/division.c
-		
-
-		
-
+		src/addition.c\
+		src/subtraction.c\
+		src/multiplication.c\
+		src/division.c\
+		src/calculate_power.c\
+		src/factorial.c\
+		src/square.c
 # All source code files
 #unity/unity.h\ 
 #test/test.c

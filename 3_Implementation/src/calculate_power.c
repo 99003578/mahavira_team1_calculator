@@ -1,15 +1,16 @@
-
 #include "calculate_power.h"
-void calculate_power()
+
+int calculate_power(int Base_Number, int exponent)
 
 {
-    double Base_Number, exponent,result=1;
+    //double Base_Number, exponent,
     //double  = 1;
     
-    printf("Enter a base number: ");
-    scanf("%lf", &Base_Number);
-    printf("Enter an exponent: ");
-    scanf("%lf", &exponent);
+    //printf("Enter a base number: ");
+    //scanf("%lf", &Base_Number);
+    //printf("Enter an exponent: ");
+    //scanf("%lf", &exponent);
+    int result=1;
      
      while(exponent != 0)
     {
@@ -25,7 +26,8 @@ void calculate_power()
         
     
      }
-     printf("Answer = %lf", result);  
+     //printf("Answer = %d", result); 
+     return result; 
     
 }
     

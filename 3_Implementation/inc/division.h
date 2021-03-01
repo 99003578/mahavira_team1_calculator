@@ -3,6 +3,6 @@
 
 #include <stdio.h>
 
-int division();
+int division(int num1, int num2);
  
  #endif 

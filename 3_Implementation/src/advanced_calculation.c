@@ -7,7 +7,7 @@
 
 char advanced_calculation(){
 
-int n,num,catch,operand;
+int n,num,catch,operand1, operand2;
 int yyy;
 char back=0;
 
@@ -18,36 +18,61 @@ char back=0;
 
         switch(num){
 
-            case 1: calculate_power();
+            case 1: printf("Enter a base number: ");
+                    scanf("%d",&operand1);
+                    printf("Enter an exponent: ");
+                    scanf("%d", &operand2);
+
+                    catch = calculate_power(operand1, operand2);
+
+                    printf("The power is = %d", catch);
+
                     printf("\n\n\n PRESS Y - SAME Menu    PRESS N - MAIN Menu\n");
                     scanf(" %c", &back);
                     break;
+
             case 2: printf("enter the number");
-                    scanf("%d", &operand);
+                    scanf("%d", &operand1);
 
-                    catch = factorial(operand);
+                    catch = factorial(operand1);
 
-                    printf("the factrial is %d", catch);   
+                    printf("the factorial is %d", catch);  
+
+                    printf("The factorial of the number is = %d", catch);
+
                     printf("\n\n\n PRESS Y - SAME Menu    PRESS N - MAIN Menu\n");
                     scanf(" %c", &back);
                     break;
-            case 3: square();
+
+
+            case 3: printf("Enter a positive integer: ");
+                    scanf("%d", &operand1);
+
+                    catch = square(operand1);
+
+                    printf("The square of the number is = %d", catch);
+
                     printf("\n\n\n PRESS Y - SAME Menu    PRESS N - MAIN Menu\n");
                     scanf(" %c", &back);
                     break;
 
             case 4: printf("Enter a positive integer: ");
-                    scanf("%d", &operand);
+                    scanf("%d", &operand1);
 
-                    catch = prime(operand);
+                    catch = prime(operand1);
+
+                    //printf("The power of the number is = %d", catch);
 
                     printf("\n\n\n PRESS Y - SAME Menu    PRESS N - MAIN Menu\n");
                     scanf(" %c", &back);
                     break;
+
             case 5: catch = datescalc();
+
                     printf("\n\n\n PRESS Y - SAME Menu    PRESS N - MAIN Menu\n");
                     scanf(" %c", &back);
                     break;
+
             case 6: printf("Enter the Year ");
                     scanf("%d",&yyy);
                     if(yyy>999&&yyy<9999)
@@ -57,6 +82,7 @@ char back=0;
                     printf("\n\n\n PRESS Y - SAME Menu    PRESS N - MAIN Menu\n");
                     scanf(" %c", &back);
                     break;
+                    
             default: back = 'E'; 
         }
     }while(back!= 'N');
