@@ -4,7 +4,7 @@
 | --- | --- | --- |
 | **LL\_1** | Addition | Adds two integer numbers |
 | **LL\_2** | Subtraction | Subtracts two integer numbers |
-| **LL\_3** | Multiplication | Product of two integer numbers |
+| **LL\_3** | Multiplication | Product of two integer numbers or two floating point numbers or one integer and one floating point number|
 | **LL\_4** | Division | Divides two numbers |
 | **LL\_5** | Factorial | Finds factorial of a number |
 | **LL\_6** | Square | Square of a number(integer type) |
