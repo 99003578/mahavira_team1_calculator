@@ -2,6 +2,6 @@
 #define _ADDITION_H_
 #include <stdio.h>
 
-void addition();
+int addition(int a,int b);
 
 #endif 

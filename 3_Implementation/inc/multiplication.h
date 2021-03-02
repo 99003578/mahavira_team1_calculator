@@ -2,6 +2,6 @@
 #define _MULTIPLICATION_H_
 #include <stdio.h>
 
-void multiplication();
+int multiplication(int b,int a);
 
 #endif

@@ -8,11 +8,13 @@ int factorial(int operand)
     //scanf("%d", &operand);
     if(operand < 0)
     return 1;
+
     else{
+
         for(int i=1;i<=operand;++i){
             fact*=i;
-        }
-        return fact;
+        }   
     }
-    return 0;
+    return fact;
+    //return 0;
 }
