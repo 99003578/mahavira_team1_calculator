@@ -8,7 +8,6 @@ SRC =  src/basic_calculation.c src/advanced_calculation.c src/addition.c src/cal
 TEST = unity/unity.c\
 		test/test_calculator.c\
 		src/prime.c\
-<<<<<<< HEAD
 		src/addition.c\
 		src/subtraction.c\
 		src/multiplication.c\
@@ -16,20 +15,6 @@ TEST = unity/unity.c\
 		src/calculate_power.c\
 		src/factorial.c\
 		src/square.c
-=======
-		
-		test/test_calculate_power_main.c\
-		test/test_calculate_power.c\
-		src/test_calculate_power.c\
-		
-		#test/test_division_main.c
-		#test/test_divison.c
-		#src/division.c
-		
-
-		
-
->>>>>>> f5273f1fa4a34abcfb9a3fbe3f2ed5d873e63fbb
 # All source code files
 #unity/unity.h\ 
 #test/test.c
