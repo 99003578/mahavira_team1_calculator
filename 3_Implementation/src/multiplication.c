@@ -1,5 +1,5 @@
 #include "multiplication.h"
-void multiplication(){
+/*void multiplication(){
     double a,b,multiplication;
     printf("Enter Input 1:");
     scanf("%lf",&a);
@@ -7,7 +7,8 @@ void multiplication(){
     scanf("%lf",&b);
     multiplication=a*b;
     printf("The output of multiplication is:%lf",multiplication);
-}
+}*/
+
 int multiplication(int a, int b){
    // double a,b,multiplication;
     //printf("Enter Input 1:");
